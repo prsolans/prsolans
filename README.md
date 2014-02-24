@@ -1,5 +1,4 @@
 # What's Installed
-
 + Ubuntu Precise (12.04)
 + Mysql
 + Php
@@ -8,17 +7,17 @@
 + PEAR
 
 ## Prerequisites
-1. Vagrant (http://vagrantup.com)
-2. VirtualBox (https://www.virtualbox.org/)
-3. Puppet (http://docs.puppetlabs.com/guides/installation.html)
-4. Git (http://git-scm.com/book/en/Getting-Started-Installing-Git)
-4. Github (account required, with access to mergeworld account)
++ Vagrant (http://vagrantup.com)
++ VirtualBox (https://www.virtualbox.org/)
++ Puppet (http://docs.puppetlabs.com/guides/installation.html)
++ Git (http://git-scm.com/book/en/Getting-Started-Installing-Git)
++ Github (account required, with access to mergeworld account)
 
 ## Getting Started
 
 1. Clone this repo
-3. From the project folder, run the command `vagrant up`
-4. Edit your local host file with this entry `192.168.50.5 fsml.staging.mergeworld.com` - this may take 3-5 minutes
+3. From the project folder, run the command `vagrant up` - this may take 3-5 minutes
+4. Edit your local host file with this entry `192.168.50.5 fsml.staging.mergeworld.com` 
 5. Access the site at fsml.staging.mergeworld.com - At this point, you should see a basic "It works!" HTML page.
 
 ## Working with the environment
