@@ -20,7 +20,7 @@
 4. Edit your local host file with this entry `192.168.50.5 fsml.staging.mergeworld.com` 
 5. Access the site at fsml.staging.mergeworld.com - At this point, you should see a basic "It works!" HTML page.
 
-## Working with the environment
+## Installing the Firestone codebase
 
 Your local `htdocs` folder is synced with the servers `var/www` folder, so you can edit using your local text editors and software and see the changes immediately on the server.
 
@@ -36,6 +36,7 @@ This assumes you have downloaded the database file, and copied it into `htdocs/d
 3. Navigate to database folder `cd /var/www/db/`
 4. Access mysql by running the command `mysql -u root -pvagrant`
 5. Load the DB by typing `source FILENAME.sql`
+6. Visit http://fsml.staging.mergeworld.com in your browser
 
 ### Alternate method - MySQL Workbench
 Need to test if this method will work with large source files
