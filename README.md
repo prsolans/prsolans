@@ -1,8 +1,8 @@
 # What's Installed
 + Ubuntu Precise (12.04)
++ Apache2
 + Mysql
 + Php
-+ Phpmyadmin
 + Git
 + PEAR
 
@@ -18,7 +18,7 @@
 1. Clone this repo
 3. From the project folder, run the command `vagrant up` - this may take 3-5 minutes
 4. Edit your local host file with this entry `192.168.50.5 fsml.staging.mergeworld.com` 
-5. Access the site at fsml.staging.mergeworld.com - At this point, you should see a basic "It works!" HTML page.
+5. Access the site at http://fsml.staging.mergeworld.com - At this point, you should see a basic "It works!" HTML page.
 
 ## Installing the Firestone codebase
 
