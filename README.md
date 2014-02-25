@@ -15,7 +15,7 @@
 ## Getting Started
 
 1. Clone this repo
-3. From the project folder, run the command `vagrant up` - this may take 3-5 minutes
+3. From the project folder, run the command `vagrant up` - this may take 3-5 minutes (NOTE: The first time you `vagrant up` may take 5-10 minutes extra to download the image for the Ubuntu installation)
 4. Edit your local host file with this entry `192.168.50.5 fsml.staging.mergeworld.com` 
 5. Access the site at http://fsml.staging.mergeworld.com - At this point, you should see a basic "It works!" HTML page.
 
