@@ -46,6 +46,11 @@ You can SSH onto the server itself by running the command `vagrant ssh`
 
 ## Notes
 
-* If you're needing a password (for anything - including mysql, it should be `vagrant`)
+* If you need a password (for anything - including mysql, it should be `vagrant`)
+* `vagrant suspend` - This command will put your local vm to sleep
+* `vagrant halt` - This will shut off your local vm
+* `vagrant destroy` - This will remove the vm completely and require rebuilding from scratch
+* At the moment, the main firestone codebase repo can only be committed to from your local machine, not from on the VM
+
 
 
