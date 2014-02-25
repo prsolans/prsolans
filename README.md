@@ -1,10 +1,9 @@
-# What's Installed
+# FIRESTONE DEV SERVER
 + Ubuntu Precise (12.04)
 + Apache2
 + Mysql
 + Php
 + Git
-+ PEAR
 
 ## Prerequisites
 + Vagrant (http://vagrantup.com)
@@ -45,7 +44,7 @@ Need to test if this method will work with large source files
 
 You can SSH onto the server itself by running the command `vagrant ssh`
 
-## A Few Details
+## Notes
 
 * If you're needing a password (for anything - including mysql, it should be `vagrant`)
 
