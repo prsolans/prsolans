@@ -38,7 +38,7 @@ This assumes you have downloaded the database file, and copied it into `htdocs/d
 6. Visit http://fsml.staging.mergeworld.com in your browser
 
 ### Alternate method - MySQL Workbench
-Need to test if this method will work with large source files
+Need to test if this method will work with large source files. Once the database is loaded, you should be able to access the VM database using Workbench with the server IP as hostname (192.168.50.5; vagrant/vagrant) and mysql creds (localhost; root/vagrant).
 
 ## SSH
 
