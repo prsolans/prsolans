@@ -1,6 +1,6 @@
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
-  ServerName fsml.staging.mergeworld.com
+  ServerName wordpress.mergeworld.com
 	DocumentRoot /var/www
 	RewriteLogLevel 9
 	RewriteLog ${APACHE_LOG_DIR}/vagrant.rewrite.log
