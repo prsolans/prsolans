@@ -17,6 +17,7 @@
 3. From the project folder, run the command `vagrant up --provision` - this may take 3-5 minutes (NOTE: The first time you `vagrant up` may take 5-10 minutes extra to download the image for the Ubuntu installation)
 
 ## Adjust Hosts files to utilize a domain name
+
 1. Add the following to your local hostfile - `192.168.50.99 wordpress.mergeworld.com`
 2. Login to WordPress admin and adjust site settings:
 ..+ `http://localhost:8080/wp-admin/` the username is `admin`, the password is `vagrant`.
@@ -29,16 +30,18 @@ Running `vagrant up` will create a `wordpress` folder within your local project 
 
 ## Edit files on the server via SSH
 You can SSH onto the server itself by running the command `vagrant ssh`
+
 2. SSH into the server to install the DB by running the command `vagrant ssh`
 3. Navigate to the root folder `cd /vagrant/wordpress/`
 4. Edit files using either VIM or NANO using the following commands:
-..+ VIM - `sudo vi FILENAME.html`
-..+ NANO - `sudo nano FILENAME.html`
+  + VIM - `sudo vi FILENAME.html`
+  + NANO - `sudo nano FILENAME.html`
 
 ## Access the database
 
 ### MySQL Workbench
 You can access the VM database using Workbench with the following settings:
+
 1. Connection Method: Stnadard TCP/IP over SSH
 2. SSH Hostname: 192.168.50.99
 3. SSH Username/Password: vagrant/vagrant
