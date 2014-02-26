@@ -20,9 +20,9 @@
 
 1. Add the following to your local hostfile - `192.168.50.99 wordpress.mergeworld.com`
 2. Login to WordPress admin and adjust site settings:
-..+ `http://localhost:8080/wp-admin/` the username is `admin`, the password is `vagrant`.
-..+ Go to Settings
-..+ Changed WordPress Address (URL) and Site Address (URL) to `http://wordpress.mergeworld.com`
+  + `http://localhost:8080/wp-admin/` the username is `admin`, the password is `vagrant`.
+  + Go to Settings
+  + Changed WordPress Address (URL) and Site Address (URL) to `http://wordpress.mergeworld.com`
 3. The site is now available at `http://wordpress.mergeworld.com`
 
 ## Edit files on your local machine
@@ -31,16 +31,28 @@ Running `vagrant up` will create a `wordpress` folder within your local project 
 ## Edit files on the server via SSH
 You can SSH onto the server itself by running the command `vagrant ssh`
 
+<<<<<<< HEAD
 1. SSH into the server to install the DB by running the command `vagrant ssh`
 2. Navigate to the root folder `cd /vagrant/wordpress/`
 3. Edit files using either VIM or NANO using the following commands:
 ..+ VIM - `sudo vi FILENAME.html`
 ..+ NANO - `sudo nano FILENAME.html`
+=======
+2. SSH into the server to install the DB by running the command `vagrant ssh`
+3. Navigate to the root folder `cd /vagrant/wordpress/`
+4. Edit files using either VIM or NANO using the following commands:
+  + VIM - `sudo vi FILENAME.html`
+  + NANO - `sudo nano FILENAME.html`
+>>>>>>> 54d8095805d206360e31d5bc51fb3542516c231e
 
 ## Access the database
 
 ### MySQL Workbench
+<<<<<<< HEAD
 You can access the VM database using Workbench with the following settings
+=======
+You can access the VM database using Workbench with the following settings:
+>>>>>>> 54d8095805d206360e31d5bc51fb3542516c231e
 
 1. Connection Method: Stnadard TCP/IP over SSH
 2. SSH Hostname: 192.168.50.99
