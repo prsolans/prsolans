@@ -1,10 +1,9 @@
-# What's Installed
+# FIRESTONE DEV SERVER
 + Ubuntu Precise (12.04)
 + Apache2
 + Mysql
 + Php
 + Git
-+ PEAR
 
 ## Prerequisites
 + Vagrant (http://vagrantup.com)
@@ -16,7 +15,7 @@
 ## Getting Started
 
 1. Clone this repo
-3. From the project folder, run the command `vagrant up` - this may take 3-5 minutes
+3. From the project folder, run the command `vagrant up` - this may take 3-5 minutes (NOTE: The first time you `vagrant up` may take 5-10 minutes extra to download the image for the Ubuntu installation)
 4. Edit your local host file with this entry `192.168.50.5 fsml.staging.mergeworld.com` 
 5. Access the site at http://fsml.staging.mergeworld.com - At this point, you should see a basic "It works!" HTML page.
 
@@ -39,14 +38,19 @@ This assumes you have downloaded the database file, and copied it into `htdocs/d
 6. Visit http://fsml.staging.mergeworld.com in your browser
 
 ### Alternate method - MySQL Workbench
-Need to test if this method will work with large source files
+Need to test if this method will work with large source files. Once the database is loaded, you should be able to access the VM database using Workbench with the server IP as hostname (192.168.50.5; vagrant/vagrant) and mysql creds (localhost; root/vagrant).
 
 ## SSH
 
 You can SSH onto the server itself by running the command `vagrant ssh`
 
-## A Few Details
+## Notes
 
-* If you're needing a password (for anything - including mysql, it should be `vagrant`)
+* If you need a password (for anything - including mysql, it should be `vagrant`)
+* `vagrant suspend` - This command will put your local vm to sleep
+* `vagrant halt` - This will shut off your local vm
+* `vagrant destroy` - This will remove the vm completely and require rebuilding from scratch
+* At the moment, the main firestone codebase repo can only be committed to from your local machine, not from on the VM
+
 
 
