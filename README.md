@@ -37,8 +37,8 @@ You can SSH onto the server itself by running the command `vagrant ssh`
 2. SSH into the server to install the DB by running the command `vagrant ssh`
 3. Navigate to the root folder `cd /vagrant/wordpress/`
 4. Edit files using either VIM or NANO using the following commands:
-+ VIM - `sudo vi FILENAME.html`
-+ NANO - `sudo nano FILENAME.html`
+..+ VIM - `sudo vi FILENAME.html`
+..+ NANO - `sudo nano FILENAME.html`
 
 ## Access the database
 
