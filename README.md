@@ -15,25 +15,20 @@
 
 1. Clone this repo into a local project folder
 3. From the project folder, run the command `vagrant up --provision` - this may take 3-5 minutes (NOTE: The first time you `vagrant up` may take 5-10 minutes extra to download the image for the Ubuntu installation)
-4. Open your browser to http://localhost:8080
 
-## Working with the environment
-
-To log in to the local Wordpress installation:
-
-`http://localhost:8080/wp-admin/` the username is `admin`, the password is `vagrant`.
-
-You can access phpMyAdmin:
-
-`http://localhost:8080/phpmyadmin/` with username `root`, password `vagrant`.
-
+## Adjust Hosts files to utilize a domain name
+1. Add the following to your local hostfile - `192.168.50.99 wordpress.mergeworld.com`
+2. Login to WordPress admin and adjust site settings:
+..+ `http://localhost:8080/wp-admin/` the username is `admin`, the password is `vagrant`.
+..+ Go to Settings
+..+ Changed WordPress Address (URL) and Site Address (URL) to `http://wordpress.mergeworld.com`
+3. The site is now available at `http://wordpress.mergeworld.com`
 
 ## Edit files on your local machine
 Running `vagrant up` will create a `wordpress` folder within your local project folder. This folder is synced to the `/vagrant/wordpress/` folder on the virtual machine. Any files you edit locally will be immediately available for review on the server.
 
 ## Edit files on the server via SSH
 You can SSH onto the server itself by running the command `vagrant ssh`
-
 2. SSH into the server to install the DB by running the command `vagrant ssh`
 3. Navigate to the root folder `cd /vagrant/wordpress/`
 4. Edit files using either VIM or NANO using the following commands:
