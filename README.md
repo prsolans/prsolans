@@ -20,9 +20,9 @@
 
 1. Add the following to your local hostfile - `192.168.50.99 wordpress.mergeworld.com`
 2. Login to WordPress admin and adjust site settings:
-..+ `http://localhost:8080/wp-admin/` the username is `admin`, the password is `vagrant`.
-..+ Go to Settings
-..+ Changed WordPress Address (URL) and Site Address (URL) to `http://wordpress.mergeworld.com`
+  + `http://localhost:8080/wp-admin/` the username is `admin`, the password is `vagrant`.
+  + Go to Settings
+  + Changed WordPress Address (URL) and Site Address (URL) to `http://wordpress.mergeworld.com`
 3. The site is now available at `http://wordpress.mergeworld.com`
 
 ## Edit files on your local machine
