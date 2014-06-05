@@ -1,11 +1,11 @@
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
-  ServerName wordpress.mergeworld.com
-	DocumentRoot /vagrant/wordpress
+  ServerName teamserver.mergeworld.com
+	DocumentRoot /var/www
 	RewriteLogLevel 9
 	RewriteLog ${APACHE_LOG_DIR}/vagrant.rewrite.log
 
-	<Directory /vagrant/wordpress>
+	<Directory /var/www>
 	    Options Indexes FollowSymLinks MultiViews
 	    AllowOverride all
 	    Order allow,deny
