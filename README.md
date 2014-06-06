@@ -1,6 +1,7 @@
 # LAMP DEV SERVER
 + Ubuntu Precise (12.04)
 + Apache2
++ Php
 + Composer 
 + Curl
 + Git
@@ -8,7 +9,6 @@
 Optional (uncomment from puppet/manifests/init.pp to enable)
 + Wordpress
 + Mysql
-+ Php
 + PhpMyAdmin
 
 ## Prerequisites
