@@ -4,8 +4,8 @@ exec { 'apt_update':
 }
 
 class { 'git::install': }
-#class { 'apache2::install': }
-#class { 'php5::install': }
+class { 'apache2::install': }
+class { 'php5::install': }
 class { 'composer':
   command_name => 'composer',
   target_dir   => '/usr/local/bin'
